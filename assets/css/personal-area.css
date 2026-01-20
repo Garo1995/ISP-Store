@@ -1,0 +1,946 @@
+.impact-drill-parts-main{
+    margin-top: 17px;
+    border-bottom: 1px solid #E9E9E9;
+    padding: 0 22px;
+}
+.impact-drill-parts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.impact-drill-parts-name{
+    display: flex;
+    align-items: center;
+}
+.impact-drill-parts-name a{
+    margin-left: 34px;
+    border-left: 1px solid #E9E9E9;
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8E8E8E;
+    padding: 4px 0 4px 25px;
+}
+.impact-drill-parts-name a img{
+    margin-right: 11px;
+}
+.impact-drill-parts-back{
+    padding-right: 17px;
+}
+.impact-drill-parts-back a{
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #1C1C1C;
+}
+
+.impact-drill-parts-back a img{
+    margin-right: 10px;
+}
+
+.personal-data-block{
+    margin-top: 34px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.impact-drill-pa-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.personal-data-item{
+    max-width: 560px;
+    width: 100%;
+    overflow: hidden;
+    height: 323px;
+    background: #F7F7F7;
+    padding: 20px 24px;
+    transition: 0.3s;
+}
+.personal-data-item .about-ordering-info {
+    margin-left: 0;
+}
+.personal-data-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+.personal-data-title h3{
+    font-family: 'DIN Pro Cond';
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #1C1C1C;
+}
+.current-tariff-main{
+    max-width: 560px;
+    width: 100%;
+}
+.current-tariff{
+    padding: 20px 24px;
+    background: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.current-tariff-tit{
+    max-width: 160px;
+    width: 100%;
+}
+.current-tariff-tit h3{
+    font-family: 'DIN Pro Cond';
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #1C1C1C;
+}
+.current-tariff-act {
+    margin-top: 20px;
+}
+.current-tariff-act strong{
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #0F9800;
+    position: relative;
+    padding-left: 15px;
+}
+.current-tariff-act strong:before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    background: #0F9800;
+    border-radius: 50%;
+}
+.current-tariff-act span{
+    display: block;
+    margin-left: 18px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8E8E8E;
+}
+.current-tariff-data {
+    margin-top: 25px;
+}
+.current-tariff-data p{
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1C1C1C;
+}
+.current-tariff-data p img {
+    margin-right: 12px;
+}
+.current-tariff-data span{
+    display: block;
+    margin-left: 32px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #1C1C1C;
+}
+.about-update-tariff {
+    max-width: 266px;
+    width: 100%;
+    position: relative;
+    margin-top: 7px;
+}
+.about-update-tariff:before{
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -30px;
+    width: 2px;
+    height: 126px;
+    background: #E9E9E9;
+}
+.about-update-tariff-info{
+    display: flex;
+    align-items: center;
+
+}
+.about-update-tar{
+    max-width: 130px;
+    width: 100%;
+}
+.about-update-tar>a{
+    display: block;
+    margin-top: 47px;
+    position: relative;
+    font-size: 14px;
+    line-height: 17px;
+    color: #E31B25;
+    font-weight: 500;
+    border-bottom: 1px solid #E31B25;
+    width: max-content;
+    margin-left: 18px;
+}
+.about-update-tar>a:before{
+    content: url("../img/reload-1.png");
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 0;
+    left: -18px;
+}
+.about-update-tar-mout {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 114px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 13px;
+}
+.about-update-tar-mout strong{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #1C1C1C;
+    font-family: 'DIN Pro Cond';
+
+}
+.choose-tariff_circle{
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 37px;
+    margin-top: 16px;
+}
+.choose-tariff_info_anim{
+    position: absolute;
+}
+.choose-tariff_price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78px;
+    height: 78px;
+    background: #262930;
+    border-radius: 50%;
+    margin-top: -5px;
+}
+.choose-tariff_price strong{
+    font-family: 'DIN Pro';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.image{
+    -webkit-animation: spin 10s linear infinite;
+    -moz-animation: spin 10s linear infinite;
+    animation: spin 10s linear infinite;
+    transition: 5s;
+}
+.circle-apsol_in_pag_ove{
+    overflow: hidden;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+.about-update-tariff-lin{
+    max-width: 266px;
+    width: 100%;
+    height: 10px;
+    background: #E9E9E9;
+    margin-bottom: 29px;
+}
+.about-update-tariff-bg{
+    width: 95px;
+    height: 10px;
+    background: #FF9900;
+    clip-path: polygon(0% 0%, 100% 0, 88% 100%, 0% 100%);
+
+}
+
+
+.news-subscription-information {
+    margin-top: 32px;
+    width: 100%;
+    padding: 22px 23px;
+    background: #F7F7F7;
+}
+.news-subscription-mail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.news-subscription-mail strong{
+    font-family: 'DIN Pro Cond';
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #1C1C1C;
+}
+.news-subscription-mail a {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #8E8E8E;
+    margin-right: 1px;
+}
+.news-subscription-mail a img{
+    margin-right: 10px;
+}
+
+.news-subscription-information .checkcontainer {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1C1C1C;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 16px;
+    display: block;
+}
+.news-subscription-information .checkcontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    left: 0;
+}
+.news-subscription-information .checkcontainer input:checked ~ .checkmark {
+    background: #E31B25;
+}
+.news-subscription-information .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #eee;
+}
+.news-subscription-information .checkcontainer input:checked ~ .checkmark:after {
+    display: block;
+}
+.news-subscription-information .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.news-subscription-information .checkcontainer .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 3px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate( 45deg);
+}
+
+.tariffs-news-subscription{
+    max-width: 560px;
+    width: 100%;
+    background: #F7F7F7;
+    padding: 22px 24px;
+}
+.tariffs-news-subscription-name{
+    display: flex;
+    align-items: center;
+}
+.tariffs-news-subscription-name strong{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #1C1C1C;
+    font-family: 'DIN Pro Cond';
+
+}
+.tariffs-news-subscription-name a{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #E31B25;
+    display: block;
+    margin-left: 14px;
+    border-bottom: 1px solid rgba(227,27,37,0.2);
+}
+.tariffs-news-subscription-name a:hover{
+    border-bottom: 1px solid #E31B25;
+
+}
+.tariffs-news-subscription>p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    color: #1C1C1C;
+    margin-top: 10px;
+}
+.tariffs-news-subs-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 0;
+    border-top: 1px solid #E9E9E9;
+}
+.tariffs-news-subs-price{
+    display: flex;
+    align-items: center;
+}
+.tariffs-news-subs-price p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 3px;
+    color: #8E8E8E;
+}
+.tariffs-news-subs-price strong{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #1C1C1C;
+    font-family: 'DIN Pro';
+
+}
+.tariffs-news-subs-block {
+    margin-top: 18px;
+    border-bottom: 1px solid #E9E9E9;
+}
+.tariffs-news-subs-price a{
+    width: 109px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #1C1C1C;
+    font-family: 'DIN Pro Cond';
+    transition: 0.3s;
+    background: unset;
+    border: 1px solid #E31B25;
+}
+.tariffs-news-subs-price a:hover{
+    background: #E31B25;
+    color: #FFFFFF;
+}
+.tariffs-news-subs-flex .about-update-tar-mout{
+    height: 35px;
+    justify-content: flex-start;
+    padding-left: 15px;
+    max-width: 101px;
+}
+.tariffs-news-subs-flex:nth-child(2) .about-update-tar-mout {
+    max-width: 135px;
+    width: 100%;
+
+}
+.tariffs-news-subs-flex:nth-child(3) .about-update-tar-mout{
+    max-width: 169px;
+    width: 100%;
+}
+
+.personal-data-active{
+    height: auto!important;
+    transition: 0.3s;
+
+}
+.personal-data-izmin button{
+    width: 182px;
+    height: 28px;
+    background: #E31B25;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.personal-data-izmin-act>a{
+    display: none;
+}
+.personal-data-izmin-act button{
+    display: block;
+}
+.about-history-order {
+    margin-top: 73px;
+}
+.about-history-order h3{
+    display: flex;
+    align-items: center;
+    font-family: 'DIN Pro Cond';
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #1C1C1C;
+}
+.about-history-order h3 img{
+    margin-right: 15px;
+}
+.about-history-order-block {
+    background: #F7F7F7;
+    margin-top: 22px;
+}
+.about-history-order-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 21px 24px;
+
+}
+.about-history-order-info{
+    display: flex;
+    align-items: center;
+}
+.about-history-order-flex .current-tariff-data {
+    margin-top: 0;
+    padding-right: 36px;
+    border-right: 1px solid #DADADA;
+}
+.about-history-order-name{
+    margin-left: 38px;
+    margin-top: 3px;
+}
+.about-history-order-name p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8E8E8E;
+}
+.about-history-order-name span{
+    font-family: 'DIN Pro';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1C1C1C;
+}
+.about-history-order-href{
+    margin-left: 40px;
+}
+.about-history-order-href a{
+    border: 1px solid #E31B25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 18px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #1C1C1C;
+    font-family: 'DIN Pro Cond';
+    transition: 0.3s;
+}
+.about-history-order-href a:hover{
+    background: #E31B25;
+    color: #FFFFFF;
+}
+.print-ord{
+    position: relative;
+    top: -10px;
+    right: 4px;
+}
+.print-ord a{
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1C1C1C;
+}
+.print-ord a img{
+    margin-right: 14px;
+}
+.show-products-cnt {
+    border-top: 1px solid #E9E9E9;
+    padding: 6px 24px;
+}
+.show-products-click{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #E31B25;
+    padding-left: 29px;
+    position: relative;
+    transition: 0.3s;
+
+}
+.show-products-click:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid #E31B25;
+    border-left: 1px solid #E31B25;
+    transform: rotate(-135deg);
+    transition: 0.3s;
+
+}
+.show-products-cnt-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+.show-products-cnt-block{
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    max-width: 544px;
+    width: 100%;
+    padding: 21px 23px;
+
+}
+.show-products-cnt-block .pages-basket-name {
+    max-width: 300px;
+    width: 100%;
+    margin-left: 0;
+}
+.show-products-cnt-block .pages-basket-anout {
+    margin-left: 0;
+}
+.show-products-cnt-act .show-products-cnt-flex{
+    height: 180px;
+    transition: 0.3s;
+}
+.show-products-cnt-act .show-products-click:before{
+    transform: rotate(45deg);
+    top: 5px;
+    transition: 0.3s;
+}
+
+.personal-pages-new-inf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 47px;
+    margin-bottom: 110px;
+}
+.personal-legal-entity .personal-data-item{
+    height: auto;
+}
+.block-stoimost{
+    width: 100px;
+
+}
+.personal-legal-entity .block-stoimost {
+    margin-left: 40px;
+}
+.personal-legal-entity .current-tariff{
+    align-items: unset;
+}
+.personal-legal-entity .about-update-tar>a:before{
+    content: url("../img/written-convers1.png");
+}
+.pages-basket-name a{
+    font-family: 'DIN Pro Cond';
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #1C1C1C;
+}
+.personal-legal-entity .current-tariff-act strong{
+    color: #8E8E8E;
+}
+.personal-legal-entity .current-tariff-act strong:before{
+    background: #8E8E8E;
+}
+.personal-legal-entity .current-tariff-data{
+    position: relative;
+}
+.personal-legal-entity .current-tariff-data:after{
+    content: "";
+    position: absolute;
+
+    bottom: -12px;
+    left: 29px;
+
+    width: 7px;
+    height: 1px;
+    background: #1C1C1C;
+}
+.personal-legal-entity .about-update-tar-mout{
+    opacity: 0.5;
+}
+@media (max-width: 1725px){
+    .tariffs-news-subscription {
+        max-width: 500px;
+        padding: 22px 20px;
+    }
+    .personal-data-item {
+        max-width: 498px;
+        padding: 20px 20px;
+    }
+    .current-tariff-main {
+        max-width: 530px;
+    }
+    .show-products-cnt-block {
+        max-width: 490px;
+        padding: 18px 15px;
+    }
+    .pages-basket-name a {
+        font-size: 22px;
+        line-height: 25px;
+      }
+}
+@media (max-width: 1599px){
+    .personal-data-block {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .tariffs-news-subscription{
+        max-width: 560px;
+        margin-top: 20px;
+    }
+    .current-tariff-main{
+        max-width: 560px;
+        margin-left: 20px;
+    }
+    .personal-data-item{
+        max-width: 560px;
+    }
+    .show-products-cnt-block {
+        max-width: 460px;
+    }
+}
+@media (max-width: 1499px){
+    .show-products-cnt-flex{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .show-products-cnt-act .show-products-cnt-flex {
+        height: auto;
+    }
+    .show-products-cnt-block{
+        margin-right: 20px;
+        margin-top: 20px;
+        max-width: 544px;
+    }
+    .header-out .whole-catalog-drop {
+        left: 28px;
+        top: 51px;
+    }
+}
+@media (max-width: 1300px){
+    .show-products-cnt-block {
+        max-width: 500px;
+    }
+    .current-tariff-main {
+        max-width: 527px;
+        margin-left: 15px;
+    }
+    .about-history-order-name {
+        margin-left: 17px;
+    }
+}
+@media (max-width: 1170px){
+    .current-tariff-main {
+        max-width: 560px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .personal-data-block{
+        flex-direction: column;
+    }
+    .about-history-order h3 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .about-history-order-info {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .about-history-order-href {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 992px){
+    .about-history-order-flex {
+        padding: 16px 14px;
+    }
+    .about-history-order-href {
+        margin-left: 25px;
+    }
+    .about-history-order-name {
+        margin-top: 10px;
+    }
+    .about-history-order-info {
+        max-width: 544px;
+    }
+}
+@media (max-width: 768px){
+    .impact-drill-parts-name a {
+        margin-left: 10px;
+        padding: 4px 0 4px 13px;
+    }
+    .impact-drill-parts{
+        flex-wrap: wrap;
+    }
+    .impact-drill-parts-back{
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .about-history-order {
+        margin-top: 20px;
+    }
+    .personal-data-block {
+        margin-bottom: 30px;
+    }
+    .about-history-order-flex{
+        flex-direction: column;
+    }
+    .print-ord{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 15px;
+    }
+    .pages-basket-name a {
+        font-size: 20px;
+        line-height: 23px;
+    }
+}
+@media (max-width: 576px){
+    .impact-drill-parts-name{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .impact-drill-parts-name a {
+        margin-left: 0;
+        padding: 4px 0 4px 10px;
+        margin-top: 15px;
+    }
+    .personal-data-item {
+        padding: 14px 14px;
+    }
+    .about-ordering-info-inp p {
+        max-width: 100%;
+    }
+    .personal-data-title {
+        margin-bottom: 15px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .personal-data-izmin{
+        margin-top: 10px;
+    }
+    .current-tariff {
+        padding: 16px 15px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .current-tariff-act {
+        margin-top: 12px;
+    }
+    .current-tariff-data {
+        margin-top: 15px;
+    }
+    .current-tariff-tit{
+        margin-bottom: 15px;
+    }
+    .about-update-tariff:before{
+        display: none;
+    }
+    .news-subscription-mail strong {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .news-subscription-mail{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .news-subscription-mail a{
+        margin-top: 10px;
+    }
+    .tariffs-news-subscription>p {
+        line-height: 18px;
+    }
+    .tariffs-news-subscription-name{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .tariffs-news-subscription-name a {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .tariffs-news-subs-flex{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .tariffs-news-subs-price {
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .tariffs-news-subs-price a {
+        margin-left: 0;
+        margin-top: 15px;
+        line-height: 16px;
+    }
+    .about-history-order h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .about-history-order-name {
+        margin: 14px;
+    }
+    .show-products-cnt-block{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+    .show-products-cnt {
+        padding: 15px 15px;
+    }
+    .personal-data-item {
+        height: 409px;
+    }
+}

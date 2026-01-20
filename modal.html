@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .modal-reg .open_modal {
+        margin: 15px;
+    }
+</style>
+<body class="bg-basket">
+<header></header>
+
+
+<div class="modal-reg">
+    <button data-val="modal2" class="open_modal btn">регистрация</button>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+
+            <div class="modal-registration-a">
+                <div class="close"></div>
+                <div class="modal-registration-flex">
+                    <div class="modal-registration-photo">
+                        <img src="assets/img/Photo232.png" alt="">
+                    </div>
+                    <div class="modal-registration-info">
+                        <div class="modal-registration-fle-row">
+                            <div class="modal-registration-title">
+                                <h3>регистрация</h3>
+                                <div class="reviews-min-text-hrefs">
+                                    <ul>
+                                        <li class="click-reviews country-city-min active-href"
+                                            data-catalog="modal-data1">
+                                            Физ. лицо
+                                        </li>
+                                        <li class="click-reviews country-city-min " data-catalog="modal-data2">
+                                            Юр. лицо
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="reviews-min-info">
+                                <div class="reviews-min-block-js" data-catalog="modal-data1">
+                                    <div class="register-popup-form">
+                                        <form>
+                                            <div class="register-popup-inp col-ramka">
+                                                <label>
+                                                    <span>ФИО <small>*</small></span>
+                                                    <img src="assets/img/user-icon21.png" alt="">
+                                                    <input type="text" >
+                                                </label>
+                                                <img src="assets/img/Vector210.png" alt="">
+                                            </div>
+                                            <div class="register-popup-inp">
+                                                <label>
+                                                    <span>E-mail <small>*</small></span>
+                                                    <img src="assets/img/email-85.png" alt="">
+                                                    <input type="text" >
+                                                </label>
+                                            </div>
+                                            <div class="register-popup-inp password-mismatch">
+                                                <label>
+                                                    <span>Пароль <small>*</small></span>
+                                                    <img src="assets/img/key-1.png" alt="">
+                                                    <input type="text" >
+                                                </label>
+                                                <div class="password-mismatch-r">
+                                                    <img src="assets/img/warning961.png" alt="">
+                                                    <span>Пароли не совпадают</span>
+                                                </div>
+                                            </div>
+                                            <div class="register-popup-inp password-mismatch">
+                                                <label>
+                                                    <span>Повторите пароль <small>*</small></span>
+                                                    <img src="assets/img/key-1.png" alt="">
+                                                    <input type="text" >
+                                                </label>
+                                                <div class="password-mismatch-r">
+                                                    <img src="assets/img/warning961.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="register-popup-inp-rob">
+                                                <img src="assets/img/captcha.png" alt="">
+                                            </div>
+                                            <div class="news-subscription-information">
+                                                <label class="checkcontainer"> Я ознакомился с <a href="#">условиями</a>
+                                                    и даю свое согласие на обработку персональных данных.
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                            <button class="btn">зарегистрироваться</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="reviews-min-block-js" data-catalog="modal-data2">
+                                    <div class="register-popup-form">
+                                        <form>
+                                            <div class="register-popup-inp">
+                                                <label>
+                                                    <span>Название компании <small>*</small></span>
+                                                    <img src="assets/img/Group-1.png" alt="">
+                                                    <input type="text">
+                                                </label>
+                                            </div>
+                                            <div class="register-popup-inp">
+                                                <label>
+                                                    <span>ИНН<small>*</small></span>
+                                                    <img src="assets/img/hashtag-1.png" alt="">
+                                                    <input type="text" >
+                                                </label>
+                                            </div>
+                                            <div class="register-popup-inp">
+                                                <label>
+                                                    <span>ФИО контактного лица <small>*</small></span>
+
+                                                    <img src="assets/img/user-icon21.png" alt="">
+                                                    <input type="text" >
+                                                </label>
+                                            </div>
+                                            <div class="register-popup-inp">
+                                                <label>
+                                                    <span>E-mail <small>*</small></span>
+
+                                                    <img src="assets/img/email-85.png" alt="">
+                                                    <input type="text" >
+                                                </label>
+                                            </div>
+                                            <div class="register-popup-inp">
+                                                <label>
+                                                    <span>Пароль <small>*</small></span>
+                                                    <img src="assets/img/key-1.png" alt="">
+                                                    <input type="text">
+                                                </label>
+                                            </div>
+                                            <div class="register-popup-inp">
+                                                <label>
+                                                    <span>Повторите пароль  <small>*</small></span>
+                                                    <img src="assets/img/key-1.png" alt="">
+                                                    <input type="text">
+                                                </label>
+                                            </div>
+                                            <div class="register-popup-inp-rob">
+                                                <img src="assets/img/captcha.png" alt="">
+                                            </div>
+                                            <div class="news-subscription-information">
+                                                <label class="checkcontainer"> Я ознакомился с <a href="#">условиями</a>
+                                                    и даю свое согласие на обработку персональных данных.
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                            <button class="btn">зарегистрироваться</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-registration-act">
+                            <p>Уже есть аккаунт? -</p>
+                            <a href="#">Войти</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-reg">
+    <button data-val="modal3" class="open_modal btn">вход</button>
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+
+            <div class="modal-registration-a">
+                <div class="close"></div>
+                <div class="modal-registration-flex">
+                    <div class="modal-registration-photo">
+                        <img src="assets/img/Photo232.png" alt="">
+                    </div>
+                    <div class="modal-registration-info">
+                        <div class="modal-registration-fle-row">
+                            <div class="modal-registration-title">
+                                <h3>вход</h3>
+                            </div>
+                            <div class="register-popup-form">
+                                <form>
+
+                                    <div class="register-popup-inp">
+                                        <label>
+                                            <span>E-mail <small>*</small></span>
+
+                                            <img src="assets/img/email-85.png" alt="">
+                                            <input type="text">
+                                        </label>
+                                    </div>
+                                    <div class="register-popup-inp">
+                                        <label>
+                                            <span>Пароль <small>*</small></span>
+                                            <img src="assets/img/key-1.png" alt="">
+                                            <input type="text" >
+                                        </label>
+                                    </div>
+
+                                    <div class="register-popup-inp-rob">
+                                        <img src="assets/img/captcha.png" alt="">
+                                    </div>
+                                    <div class="news-subscription-information">
+                                        <label class="checkcontainer"> Запомнить меня на сайте
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <div class="out-pass">
+                                        <button class="btn">Войти</button>
+                                        <a href="#">Забыли пароль?</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="modal-registration-act">
+                            <p>Еще нет аккаунта? -</p>
+                            <a href="#">Зарегистрироваться</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-reg">
+    <button data-val="modal4" class="open_modal btn">Забыли пароль?</button>
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+
+            <div class="modal-registration-a">
+                <div class="close"></div>
+                <div class="modal-registration-flex">
+                    <div class="modal-registration-photo">
+                        <img src="assets/img/Photo232.png" alt="">
+                    </div>
+                    <div class="modal-registration-info">
+                        <div class="modal-registration-fle-row">
+                            <div class="modal-registration-title">
+                                <h3>Забыли пароль?</h3>
+                            </div>
+                            <p>Введите Ваш email и мы вышлем Вам инструкцию
+                                по смене пароля.</p>
+                            <div class="register-popup-form">
+                                <form>
+                                    <div class="register-popup-inp">
+                                        <label>
+                                            <span>E-mail <small>*</small></span>
+                                            <img src="assets/img/email-85.png" alt="">
+                                            <input type="text">
+                                        </label>
+                                    </div>
+                                    <button class="btn">восстановить пароль</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="modal-registration-act">
+                            <p>Я вспомнил пароль -</p>
+                            <a href="#">Войти</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal-reg">
+    <button data-val="modal5" class="open_modal btn">подтвердите регистрацию</button>
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+
+            <div class="modal-registration-a">
+                <div class="close"></div>
+                <div class="modal-registration-flex">
+                    <div class="modal-registration-photo">
+                        <img src="assets/img/Photo232.png"  alt="">
+                    </div>
+                    <div class="modal-registration-info">
+                        <div class="modal-registration-fle-row">
+                            <div class="modal-registration-title">
+                                <img src="assets/img/loading-11.png" class="image" alt="">
+                                <h3>подтвердите регистрацию</h3>
+                            </div>
+                            <p>На Вашу почту отправленно письмо. Пожалуйста
+                                перейдите по ссылке в письме, для подтверждения регистрации.</p>
+                            <div class="the-letter-did-to">
+                                <img src="assets/img/written-convers1.png" alt="">
+                                <p>Если письмо не пришло на Вашу почту, проверьте папку "спам".</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal-reg">
+    <button data-val="modal6" class="open_modal btn">оБратный звонок</button>
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+
+            <div class="modal-call-a">
+                <div class="close"></div>
+
+                <div class="modal-registration-info">
+                    <div class="modal-registration-fle-row">
+                        <div class="modal-registration-title">
+                            <h3>оБратный звонок</h3>
+                        </div>
+                        <div class="register-popup-form">
+                            <form>
+
+                                <div class="register-popup-inp">
+                                    <label>
+                                        <span>E-Имя <small>*</small></span>
+
+                                        <img src="assets/img/user-icon21.png" alt="">
+                                        <input type="text" >
+                                    </label>
+                                </div>
+                                <div class="register-popup-inp">
+                                    <label>
+                                        <span>Телефон <small>*</small></span>
+
+                                        <img src="assets/img/Group-52.png" alt="">
+                                        <input type="text" pattern="\+7 \(\d{3}\)-\d{2}-\d{2}-\d{2}" class="phone">
+                                    </label>
+                                </div>
+                                <div class="register-popup-inp">
+                                    <label>
+                                        <span>E-mail <small>*</small></span>
+
+                                        <img src="assets/img/email-85.png" alt="">
+                                        <input type="text" >
+                                    </label>
+                                </div>
+                                <div class="register-popup-textarea">
+                                    <label>
+
+                                        <img src="assets/img/question851.png" alt="">
+                                        <textarea placeholder="Ваш вопрос"></textarea>
+                                    </label>
+                                </div>
+
+                                <div class="register-popup-inp-rob">
+                                    <img src="assets/img/captcha.png" alt="">
+                                </div>
+                                <div class="news-subscription-information">
+                                    <label class="checkcontainer"> Я ознакомился с <a href="#">условиями</a>
+                                        и даю свое согласие на обработку персональных данных.
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <button class="btn">перезвоните мне</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-reg">
+    <button data-val="modal7" class="open_modal btn">Ваша заявка принята!</button>
+    <div id="modal7" class="modal">
+        <div class="modal-content">
+            <div class="modal-call-a">
+                <div class="close"></div>
+                <div class="modal-registration-title flex-row-tit">
+                    <img src="assets/img/checked-p1.png" alt="">
+                    <h3>оБратный звонок</h3>
+                    <p>Наш менеджер свяжется с Вами в ближайшее
+                        время.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal-reg">
+    <button data-val="modal8" class="open_modal btn">Спасибо за подписку!</button>
+    <div id="modal8" class="modal">
+        <div class="modal-content">
+            <div class="modal-call-a">
+                <div class="close"></div>
+                <div class="modal-registration-title flex-row-tit">
+                    <img src="assets/img/Group563.png" alt="">
+                    <h3>Спасибо за подписку!</h3>
+                    <p>Мы будем присылать Вам на почту наши акционные предложения и
+                        будем делиться интересными новостями. <b>Рады что Вы с нами!</b></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-reg">
+    <button data-val="modal9" class="open_modal btn">Спасибо за подписку!</button>
+    <div id="modal9" class="modal">
+        <div class="modal-content">
+            <div class="modal-call-a">
+                <div class="close"></div>
+                <div class="modal-registration-title flex-row-tit">
+                    <img src="assets/img/Vector-476.png" alt="">
+                    <h3>Нам очень жаль.</h3>
+                    <p>Вы успешно отписались от новостей</p>
+                    <div class="the-letter-did-to">
+                        <img src="assets/img/written-convers1.png" alt="">
+                        <p>Если захотите получать рассылку снова, просто отметьте галочкой "подписка на новости" в Вашем личном кабинете.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-reg">
+    <button data-val="modal10" class="open_modal btn">отписаться</button>
+    <div id="modal10" class="modal">
+        <div class="modal-content">
+            <div class="modal-call-a">
+                <div class="close"></div>
+                <div class="modal-registration-title flex-row-tit">
+                    <h3>Вы уверены что хотите
+                        отписаться от рассылки?</h3>
+                </div>
+                <div class="sure-you-want-cancel">
+                    <button>отписаться</button>
+                    <a href="#"><img src="assets/img/smile51.png" alt=""> Остаться</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-reg">
+    <button data-val="modal11" class="open_modal btn">запрос коммерческого предложения</button>
+    <div id="modal11" class="modal">
+        <div class="modal-content">
+
+            <div class="modal-call-a">
+                <div class="close"></div>
+
+                <div class="modal-registration-info">
+                    <div class="modal-registration-fle-row">
+                        <div class="modal-registration-title">
+                            <h3>запрос коммерческого
+                                предложения</h3>
+                        </div>
+                        <div class="commercial-request-offers">
+                            <div class="commercial-request-offers-img">
+                                <img src="assets/img/830ec03.png" alt="">
+                            </div>
+                            <div class="commercial-request-offers-name">
+                                <span>Физический товар</span>
+                                <h4>Гидроцилиндр ЦБХ 211 А
+                                    (70х90)</h4>
+                                <div class="slider-product-calc">
+                    <span onclick="incrementDecrementCount.decrement(this)" class="decrement-count"
+                          style="background-image: url('assets/img/icons/decrement.png')"></span>
+                                    <p class="card-count">1</p>
+                                    <span onclick="incrementDecrementCount.increment(this)" class="increment-count"
+                                          style="background-image: url('assets/img/icons/increment.png')"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="register-popup-form">
+                            <form>
+
+                                <div class="register-popup-inp">
+                                    <label>
+                                        <span>Имя <small>*</small></span>
+
+                                        <img src="assets/img/user-icon21.png" alt="">
+                                        <input type="text" >
+                                    </label>
+                                </div>
+                                <div class="register-popup-inp">
+                                    <label>
+                                        <span>E-mail <small>*</small></span>
+                                        <img src="assets/img/email-85.png" alt="">
+                                        <input type="text">
+                                    </label>
+                                </div>
+                                <div class="register-popup-textarea">
+                                    <label>
+                                        <img src="assets/img/black-placariant 1.png" alt="">
+                                        <textarea placeholder="Адрес доставки"></textarea>
+                                    </label>
+                                </div>
+                                <div class="register-popup-inp-rob">
+                                    <img src="assets/img/captcha.png" alt="">
+                                </div>
+                                <div class="news-subscription-information">
+                                    <label class="checkcontainer"> Я ознакомился с <a href="#">условиями</a>
+                                        и даю свое согласие на обработку персональных данных.
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <button class="btn">получить коммерческое предложение</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/jquery.formstyler.min.js"></script>
+<script src="assets/js/jquery.mask.js"></script>
+<script src="assets/slick/slick.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+    $(document).ready(function () {
+        $('select').styler();
+    })
+</script>
+
+</body>
+</html>
